@@ -1,0 +1,33 @@
+name: task_manager
+description: A simple task management app with clean architecture
+publish_to: 'none'
+version: 1.0.0+1
+
+environment:
+  sdk: '>=3.0.0 <4.0.0'
+
+dependencies:
+  flutter:
+    sdk: flutter
+
+  # State Management
+  flutter_riverpod: ^2.4.9
+
+  # Local Storage
+  sqflite: ^2.3.0
+  path: ^1.8.3
+
+  # UI
+  cupertino_icons: ^1.0.2
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+  flutter_lints: ^2.0.0
+
+flutter:
+  uses-material-design: true
+
+  # Uncomment if you want to add app icon
+  # assets:
+  #   - assets/icon/icon.png
