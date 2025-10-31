@@ -112,10 +112,7 @@ flutter build apk --debug
 flutter build apk --release
 ```
 
-APK location: `build/app/outputs/flutter-apk/app-release.apk`
-
-## 📥 Download APK
-
+APK location: `build/app/outputs/flutter-apk/app-release.apk` or via the github release window
 
 ## 🧪 Testing Scenarios
 
